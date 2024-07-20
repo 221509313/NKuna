@@ -1,0 +1,108 @@
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/Nkuna-Legal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.home-content h2{
+    text-align: center;
+    padding-top: 10%;
+    color: aliceblue;
+    padding-bottom:5% ;
+}
+
+
+
+.my-card{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 50vh;  
+    margin-left: 10px;
+    align-items: center;
+}
+.card-body{
+    color: aliceblue;
+    
+}
+.card-title{
+    font-weight: 700;
+}
+
+.vertical-line {
+    margin-top: 10px;
+    border-left: 2px solid blue; /* Line thickness and color */
+    height: 100px; /* Adjust height as needed */
+    margin-left: 20px; /* Optional: space from other content */
+    
+}
+
+.Services{
+    text-align: center;
+}
+ 
+.carousel-item {
+    height: 100px; /* Adjust height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffcf; /* Light background color for visibility */
+}
+.carousel-item h3 {
+    font-weight: 800;
+    margin-top: 20px;
+    font-size: 24px; /* Adjust font size as needed */
+    color: #0077ff; /* Text color */
+    animation: slide 19s infinite;
+}
+@keyframes slide {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+}
+
+.contact-form {
+    padding: 20px;
+}
+.contact-form img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.contact-details span {
+    display: block;
+    margin-bottom: 10px;
+}
+.contact-details {
+    margin-bottom: 20px;
+}
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}
+form button {
+    width: 100%;
+}
